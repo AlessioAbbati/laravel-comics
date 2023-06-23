@@ -1,6 +1,8 @@
 <main>
     <div class="contents">
-        @include('partials.cards')
+        @foreach ($arrComics as $card)
+            @include('partials.cards')
+        @endforeach
     </div>
     <button>LOAD MORE</button>
 </main>

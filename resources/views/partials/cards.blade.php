@@ -1,9 +1,9 @@
 <div class="cards">
-
-    {{-- <img :src="urlImg" :alt="series" />
-
+    {{-- <img src="{{ Vite::asset($card['thumb']) }}" alt=""> --}}
+        
     <div class="text-container">
-        <h3>{{ series }}</h3>
-        <span>{{ price }}</span>
-    </div> --}}
+        <h3>{{ $card['series'] }}</h3>
+        <span>{{ $card['price'] }}</span>
+    </div>
+    
 </div>
