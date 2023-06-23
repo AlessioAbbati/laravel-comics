@@ -56,16 +56,6 @@ Route::get('/', function () {
                 'title' => 'shop',
                 'link' => '#'
             ], 
-            // 'character',
-            // 'comics',
-            // 'movies',
-            // 'tv',
-            // 'games',
-            // 'collectibles',
-            // 'videos',
-            // 'fans',
-            // 'news',
-            // 'shop',
         ],
         'comics' => [
             "title" => "Action Comics #1000: The Deluxe Edition",

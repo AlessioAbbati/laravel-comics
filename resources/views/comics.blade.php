@@ -8,6 +8,6 @@
     </head>
     <body>
         @include('header')
-       
+        @include('main')
     </body>
 </html>
